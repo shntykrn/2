@@ -2,8 +2,646 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Travelling</title>
+    <title>ExploreNuTa</title>
+
+    <!-- Logo -->
+    <link rel="icon" href="assets/logo.png" type="image/x-icon" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/app.css" />
+
+    <!-- fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <a class="logo" href="index.html">
+          <i class="fa-solid fa-binoculars"></i>
+          <h4>Explore<span>NuTa</span></h4>
+        </a>
+        <section class="nav-menu">
+          <a class="menu-item" href="index.html">Home</a>
+          <a class="menu-item" href="index.html#popular">Popular</a>
+          <a class="menu-item" href="destination.html">Destination</a>
+          <a class="button" href="contact.html">Contact</a>
+        </section>
+        <section class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </section>
+      </nav>
+    </header>
+    <!-- Akhir navbar -->
+
+    <main>
+      <!-- Container 1 -->
+      <article class="container-1">
+        <div class="wrapper-container-1">
+          <div class="content-container-1">
+            <h2>Chose your</h2>
+            <h2>Destination with</h2>
+            <h1>EXPLORENUTA</h1>
+            <p>
+              Explorenuta is a website for searching for attractions in East and
+              West Nusa Tenggara to help indecisive travelers easily determine
+              where to explore
+            </p>
+            <div class="button-box">
+              <a href="#destination" class="button">
+                <p>destination</p>
+                <i class="fa-solid fa-arrow-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <section class="section-container-1">
+          <div class="content-section-boxs">
+            <div class="content-section-box">
+              <div class="logo-box">
+                <i class="fa-solid fa-binoculars"></i>
+              </div>
+              <h5>Search Your Destination</h5>
+              <p>Find enchanting destinations to visit in Nusa Tenggara</p>
+            </div>
+            <div class="content-section-box">
+              <div class="logo-box">
+                <i class="fa-solid fa-book"></i>
+              </div>
+              <h5>Read Your Destination Info</h5>
+              <p>Read information about the places to visit in Nusa Tenggara</p>
+            </div>
+            <div class="content-section-box">
+              <div class="logo-box">
+                <i class="fa-solid fa-map"></i>
+              </div>
+              <h5>Travel Around Nusa Tenggara</h5>
+              <p>Visit the places you have searched for on the website</p>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!-- Akhir container 1 -->
+
+      <!-- Container 2 -->
+      <article class="container-2">
+        <h3>Nusa Tenggara</h3>
+        <p>Location of West Nusa Tenggara and East Nusa Tenggara Islands</p>
+        <img src="assets/maps.png" alt="" />
+      </article>
+      <!-- Akhir container 2 -->
+
+      <!-- Container 3 -->
+      <article class="container-3" id="popular">
+        <h3>Popular Places To Visit</h3>
+        <p>Most Trending and Popular Places Around Nusa Tenggara</p>
+        <section class="wrapper">
+          <div class="carousel">
+            <div class="card">
+              <div class="card-content">
+                <img src="assets/rinjani.jpg" alt="" />
+                <h5>Rinjani Mountain</h5>
+                <p>West Nusa Tenggara</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="assets/waerebo.jpg" alt="" />
+                <h5>Wae Rebo</h5>
+                <p>East Nusa Tenggara</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="assets/komodo.jpg" alt="" />
+                <h5>Komodo Island</h5>
+                <p>East Nusa Tenggara</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="assets/kelimutu.jpg" alt="" />
+                <h5>Kelimutu Lake</h5>
+                <p>East Nusa Tenggara</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="assets/padarisland.jpg" alt="" />
+                <h5>Padar Island</h5>
+                <p>East Nusa Tenggara</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <img src="assets/pinkbeach.jpg" alt="" />
+                <h5>Pink Beach</h5>
+                <p>East Nusa Tenggara</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="navigation-popular">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+        </section>
+      </article>
+      <!-- Akhir container 3 -->
+
+      <!-- Container 4 -->
+      <article class="container-4">
+        <h3>Watch Our Video Tour</h3>
+        <p>
+          Watch Our Video Tour to Experience the Magnificent Beauty of Nusa
+          Tenggara
+        </p>
+        <section class="video-box">
+          <video
+            width="100%"
+            height="100%"
+            controls
+            poster="assets/cover-video.jpg"
+          >
+            <source src="assets/Paradise-Returns.mp4" type="video/mp4" />
+          </video>
+        </section>
+      </article>
+      <!-- Akhir container 4 -->
+
+      <!-- Container 5 -->
+      <article class="container-5" id="destination">
+        <h3>Top Destination</h3>
+        <p>
+          Discover the Top Destinations in Nusa Tenggara for an Unforgettable
+          Travel Experience
+        </p>
+        <section class="destination-boxs">
+          <div class="destination-box-1">
+            <div class="image-overlay">
+              <img src="assets/padarisland.jpg" alt="" />
+            </div>
+            <div class="image-content">
+              <h5>Padar Island, East Nusa Tenggara</h5>
+              <div class="image-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="destination-box-2">
+            <div class="image-1">
+              <div class="image-overlay">
+                <img src="assets/labuanbajo.jpg" alt="" />
+              </div>
+              <div class="image-content">
+                <h5>Labuan Bajo, East Nusa Tenggara</h5>
+                <div class="image-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="image-2">
+              <div class="image-2-1">
+                <div class="image-overlay">
+                  <img src="assets/gilitrawangan.jpg" alt="" />
+                </div>
+                <div class="image-content">
+                  <h5>Gili Trawangan, West Nusa Tenggara</h5>
+                  <div class="image-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="image-2-2">
+                <div class="image-overlay">
+                  <img src="assets/gilimeno.jpg" alt="" />
+                </div>
+                <div class="image-content">
+                  <h5>Gili Meno, West Nusa Tenggara</h5>
+                  <div class="image-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="destination-box-3">
+            <div class="image-3">
+              <div class="image-overlay">
+                <img src="assets/komodo.jpg" alt="" />
+              </div>
+              <div class="image-content">
+                <h5>Komodo Island, East Nusa Tenggara</h5>
+                <div class="image-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="image-4">
+              <div class="image-overlay">
+                <img src="assets/pinkbeach2.jpg" alt="" />
+              </div>
+              <div class="image-content">
+                <h5>Pink Beach, East Nusa Tenggara</h5>
+                <div class="image-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="button-box">
+          <a href="destination.html" class="button">
+            <p>view more</p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+      <!-- Akhir container 5 -->
+
+      <!-- Container 6 -->
+      <article class="container-6">
+        <h3>Tourist Fedback</h3>
+        <p>
+          Explore Tourist Reviews & Testimonials of Nusa Tenggara's Most
+          Trending Places.
+        </p>
+        <section class="feedback-wrapper">
+          <div class="feedback-carousel">
+            <div class="feedback-card">
+              <div class="feedback-content">
+                <div class="feedback-header">
+                  <figure class="feedback-profile">
+                    <img
+                      class="image-profile"
+                      src="assets/feedback-1.jpg"
+                      alt=""
+                    />
+                    <div class="name-address">
+                      <h5>Emily Johnson</h5>
+                      <h6>New York City, United States</h6>
+                    </div>
+                  </figure>
+                  <div class="rating">
+                    <h6>5.0</h6>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p>
+                  "My journey to Nusa Tenggara was an enchanting adventure from
+                  start to finish. The region's captivating beauty, from the
+                  rugged cliffs to the emerald-green rice terraces, left me
+                  breathless. The warm hospitality of the locals and their rich
+                  cultural traditions made me feel truly immersed in the
+                  destination. Exploring the Komodo National Park and
+                  encountering the magnificent Komodo dragons was a
+                  once-in-a-lifetime experience that I'll cherish forever. Nusa
+                  Tenggara is a true paradise for nature lovers and those
+                  seeking an off-the-beaten-path escape."
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback-card">
+              <div class="feedback-content">
+                <div class="feedback-header">
+                  <figure class="feedback-profile">
+                    <img
+                      class="image-profile"
+                      src="assets/feedback-2.jpg"
+                      alt=""
+                    />
+                    <div class="name-address">
+                      <h5>Olivia Brown</h5>
+                      <h6>Paris, France</h6>
+                    </div>
+                  </figure>
+                  <div class="rating">
+                    <h6>5.0</h6>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p>
+                  "Nusa Tenggara is a hidden gem waiting to be discovered. The
+                  pristine white-sand beaches stretching as far as the eye can
+                  see, the turquoise waters teeming with vibrant marine life,
+                  and the lush green forests create a postcard-perfect setting.
+                  I was captivated by the rich biodiversity of the region, from
+                  diving with manta rays to hiking to breathtaking viewpoints.
+                  The local communities welcomed me with open arms, allowing me
+                  to immerse myself in their traditions and learn about their
+                  way of life. Nusa Tenggara is an absolute paradise for
+                  adventure enthusiasts and nature lovers."
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback-card">
+              <div class="feedback-content">
+                <div class="feedback-header">
+                  <figure class="feedback-profile">
+                    <img
+                      class="image-profile"
+                      src="assets/feedback-3.jpg"
+                      alt=""
+                    />
+                    <div class="name-address">
+                      <h5>Michael Williams</h5>
+                      <h6>Sydney, Australia</h6>
+                    </div>
+                  </figure>
+                  <div class="rating">
+                    <h6>5.0</h6>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p>
+                  "My journey through Nusa Tenggara was a tapestry of
+                  extraordinary experiences. From exploring the iconic rice
+                  terraces of Flores to hiking to hidden waterfalls in Lombok,
+                  each day was filled with awe-inspiring moments. The warmth and
+                  kindness of the local people made me feel like a part of their
+                  community. The rich cultural heritage of the region came alive
+                  through traditional dances, intricate handicrafts, and
+                  mouthwatering local delicacies. Watching the sunrise over the
+                  majestic Mount Rinjani was a spiritual awakening. Nusa
+                  Tenggara is a destination that feeds the soul and leaves an
+                  indelible mark on your heart."
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback-card">
+              <div class="feedback-content">
+                <div class="feedback-header">
+                  <figure class="feedback-profile">
+                    <img
+                      class="image-profile"
+                      src="assets/feedback-4.jpg"
+                      alt=""
+                    />
+                    <div class="name-address">
+                      <h5>William Jones</h5>
+                      <h6>Rome, Italy</h6>
+                    </div>
+                  </figure>
+                  <div class="rating">
+                    <h6>5.0</h6>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p>
+                  "Nusa Tenggara is a paradise of contrasts and natural wonders.
+                  The rugged volcanic landscapes of Sumbawa and the idyllic Gili
+                  Islands offer a diverse range of experiences. I found myself
+                  snorkeling in vibrant coral reefs, trekking through lush
+                  rainforests, and relaxing on pristine beaches. The locals'
+                  genuine smiles and warm hospitality made me feel at home
+                  wherever I went. Whether you're seeking adventure or
+                  tranquility, Nusa Tenggara has it all. It's a destination that
+                  captures the essence of Indonesia's beauty and cultural
+                  richness."
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback-card">
+              <div class="feedback-content">
+                <div class="feedback-header">
+                  <figure class="feedback-profile">
+                    <img
+                      class="image-profile"
+                      src="assets/feedback-5.jpg"
+                      alt=""
+                    />
+                    <div class="name-address">
+                      <h5>Charlotte Martinez</h5>
+                      <h6>Berlin, Germany</h6>
+                    </div>
+                  </figure>
+                  <div class="rating">
+                    <h6>5.0</h6>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p>
+                  "Nusa Tenggara is a land of breathtaking beauty and untamed
+                  wilderness. From the awe-inspiring sight of the three-colored
+                  lakes of Kelimutu to the awe-inspiring underwater world of the
+                  Wakatobi Marine Park, the region offers a sensory overload of
+                  natural wonders. The vibrant local markets, where spices and
+                  handicrafts abound, gave me a glimpse into the local way of
+                  life. I met fellow travelers from around the world, sharing
+                  stories and creating memories together. Nusa Tenggara is a
+                  destination that fuels the spirit of adventure and leaves you
+                  longing for more."
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback-card">
+              <div class="feedback-content">
+                <div class="feedback-header">
+                  <figure class="feedback-profile">
+                    <img
+                      class="image-profile"
+                      src="assets/feedback-6.jpg"
+                      alt=""
+                    />
+                    <div class="name-address">
+                      <h5>Benjamin Anderson</h5>
+                      <h6>Rio de Janeiro, Brazil</h6>
+                    </div>
+                  </figure>
+                  <div class="rating">
+                    <h6>5.0</h6>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p>
+                  "Nusa Tenggara is a realm frozen in time, where ancient
+                  temples and traditional villages transport you to a bygone
+                  era. The skilled weavers and their intricate textiles showcase
+                  the region's rich cultural heritage. Witnessing the
+                  breathtaking sunsets over the Komodo Islands, painted with
+                  vibrant hues, left me in awe of nature's artistry. Nusa
+                  Tenggara is a captivating destination that combines history,
+                  art, and natural beauty, offering a truly unforgettable
+                  experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="navigation-feedback">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+        </section>
+      </article>
+      <!-- Akhir container 6 -->
+
+      <!-- Container 8 -->
+      <aside class="container-8">
+        <h3>Author</h3>
+        <div class="author-content-box">
+          <figure class="author-image">
+            <img src="assets/aside-foto.jpg" alt="" />
+          </figure>
+          <div class="author-content">
+            <table>
+              <tr>
+                <td class="bold">Nama</td>
+                <td>: Alya Izzah Zalfa R R N P</td>
+              </tr>
+              <tr>
+                <td class="bold">Umur</td>
+                <td>: 20 Tahun</td>
+              </tr>
+              <tr>
+                <td class="bold">Alamat</td>
+                <td>: Tuban, Jawa Timur</td>
+              </tr>
+            </table>
+            <h5>Contact Me :</h5>
+            <div class="button-boxs-author">
+              <div class="button-box-author">
+                <a
+                  href="mailto:alyaizzahzalfa@gmail.com"
+                  type="button"
+                  class="button-contact email"
+                  target="_blank"
+                  ><i class="bx bx-envelope"></i>
+                  <p>Email</p></a
+                >
+                <a
+                  href="https://instagram.com/zalfanirwana"
+                  type="button"
+                  class="button-contact instagram"
+                  target="_blank"
+                  ><i class="bx bxl-instagram"></i>
+                  <p>Instagram</p></a
+                >
+                <a
+                  href="https://github.com/alyaiz"
+                  type="button"
+                  class="button-contact github"
+                  target="_blank"
+                  ><i class="bx bxl-github"></i>
+                  <p>Github</p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- Akhir container 8 -->
+
+      <!-- Container 7 -->
+      <article class="container-7">
+        <h3>Subcribe To Stay Update</h3>
+        <form class="email-box" method="#" action="#">
+          <input
+            class="form-input"
+            type="email"
+            placeholder="Please enter your email address to stay update with our latest version app"
+          />
+          <button class="button-email">Send</button>
+        </form>
+      </article>
+      <!-- Akhir container 7 -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <section class="footer-1">
+          <a class="logo" href="index.html">
+            <i class="fa-solid fa-binoculars"></i>
+            <h4>Explore<span>NuTa</span></h4>
+          </a>
+          <p>
+            Explorenuta is a website for searching for attractions in East and
+            West Nusa Tenggara to help indecisive travelers easily determine
+            where to explore
+          </p>
+        </section>
+        <section class="footer-2">
+          <h6>Quick Link</h6>
+          <a href="index.html">Home</a>
+          <a href="#popular">Popular</a>
+          <a href="destination.html">Destination</a>
+          <a href="contact.html">Contact</a>
+        </section>
+        <section class="footer-3">
+          <h6>Company</h6>
+          <p>ExploreNuTa</p>
+          <p>Mataram</p>
+          <p>Nusa Tenggara Barat</p>
+          <p>Indonesia</p>
+        </section>
+        <section class="footer-4">
+          <h6>Follow Us</h6>
+          <a href="#" target="_blank" class="footer-icon"
+            ><p>Facebook</p>
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" target="_blank" class="footer-icon">
+            <p>Twitter</p>
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </section>
+      </div>
+      <hr />
+      <p class="copyright">
+        &copy; 2023 ExploreNuTa Website - Dikembangkan Oleh ExploreNuTa
+      </p>
+    </footer>
+    <!-- Akhir footer -->
+
+    <!-- Javascript -->
+    <script src="javascript/navbarScroll.js"></script>
+    <script src="javascript/navbar.js"></script>
+    <script src="javascript/slidePopular.js"></script>
+    <script src="javascript/slideFeedback.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
 </html>

@@ -1,0 +1,23 @@
+<header>
+            <nav>
+                <section>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="#">Destination
+                            <ul class="dropdown">
+                                <li><a href="#">Place</a></li>
+                                <li><a href="#">Cullinary</a></li>
+                            </ul>
+                        </a></li>
+                        <li><a href="#">About NTT</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a class="button_login" href="#">Login</a></li>
+                    </ul>
+                </section>
+                <section class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </section>
+            </nav>
+        </header>
